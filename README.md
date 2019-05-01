@@ -3,7 +3,7 @@ Predicting CIFAR classes in pytorch
 
 ## Build:
 ```
-$> jupyter notebook predictor.py
+$> jupyter notebook predictor.ipnyb
 ```
 
 ## Walkthrough:
