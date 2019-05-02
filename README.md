@@ -71,3 +71,12 @@ class CNN(nn.Module):
         x = self.logsoftmax(self.fc3(x))
         return(x)
 ```
+
+### Training the model
+
+After loading the data and creating an instance of the CNN class, it is time to train. In order to train the model, I used `optim.SGD` stochastic gradient descent module. The parameters chosen for the network is `lr=0.005` and `momentum=0.8` which is effective, but could be tuned especially as the loss function was found to fluctuate near the end of training. The loss function used is the a Negative Log Likelihood loss, and the parameters are updated after each passthrough
+
+After training for 10 epochs (20 sets of 25000 images):
+<p align="center">
+  <img width="600"  src="./digits.png">
+</p>
