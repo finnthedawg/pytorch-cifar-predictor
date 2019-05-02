@@ -80,3 +80,8 @@ After training for 10 epochs (20 sets of 25000 images):
 <p align="center">
   <img width="600"  src="./digits.png">
 </p>
+
+
+### Evaluating the accuracy.
+
+Finally, the test set was evaluated using our model. The accuracy is the percent of classes the that model predicted correctly. The value obtained was `62%`. This is much lower than the previous MNIST task, but it is to be expected as the images are quite unclear in many cases. Nevertheless, the network architecture could be improved if we could introduce dropout layers, and increase the depth of the network without suffering from overfitting.
