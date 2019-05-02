@@ -37,7 +37,7 @@ The CIFAR dataset is split into `5` different batches, each with `10000` images 
 
 Below is a sample extracted image from our dataset.
 <p align="center">
-  <img width="600"  src="./digits.png">
+  <img width="250"  src="./bird.png">
 </p>
 
 ### Create a CNN model
@@ -78,7 +78,7 @@ After loading the data and creating an instance of the CNN class, it is time to 
 
 After training for 10 epochs (20 sets of 25000 images):
 <p align="center">
-  <img width="600"  src="./digits.png">
+  <img width="350"  src="./loss.png">
 </p>
 
 
